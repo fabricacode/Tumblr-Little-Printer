@@ -96,7 +96,7 @@
 		<div id='bannerContainer'>
 			<img src='".$publicationUrl."banner.png'/>
 		</div>";
-	$title="Title";
+	$title="";
     $etag="";
     $textContainer="";
 	$headerContainer="";
