@@ -1,0 +1,10 @@
+{
+    "owner_email" : "myemailaddress@gmail.com",
+    "publication_api_version":"1.0",
+    "name": "Name of the publication",
+    "description": "Example of a description",
+    "delivered_on": "twice a week",
+    "send_timezone_info": false,
+    "send_delivery_count": false,
+    "external_configuration": false
+}

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^edition/$ /tumblr_lp/edition.php
+RewriteRule ^edition$  /tumblr_lp/edition.php
+RewriteRule ^sample/$  /tumblr_lp/sample.html
+RewriteRule ^sample$   /tumblr_lp/sample.html
+

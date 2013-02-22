@@ -1,0 +1,25 @@
+Tumblr Little Printer (http://bergcloud.com/littleprinter/)
+***********
+
+Tumblr Little Printer is a simple way to create a Little Printer publication based on a tumblr blog.
+More info about Little Printer publication at www.bergcloud.com/download/Little_Printer_Publications.pdf
+
+To setup the Little Printer Publication you have to upload the folder on your server and edit the files edition.php/.htacces/meta.json.
+Everything can be summarized in these easy steps.
+
+1)Edit the first part of the file edition.php in order to setup:
+		 - Your tumblr api key (more info at http://www.tumblr.com/oauth/apps)
+		 - Publication folder URL on your server
+		 - Publication font name and size (see www.bergcloud.com/download/Little_Printer_Publications.pdf for available fontfaces)
+		 - Tumblr blog name
+2)Update the meta.json file with your data specifying:
+		 - Publication name
+		 - Publication description
+		 - Text describing when the publication will be delivered (twice a week, every day, on solstice :) );
+		 - Email address
+3)Customize the images icon.png/banner.png
+4)Update the file .htacces (on Mac the file is invisible) replacing 'tumblr_lp' with the relative path of the publication folder on the server
+5)Validate your app with the Berg developer tools at: http://remote.bergcloud.com/developers/tools/ and submit it here http://remote.bergcloud.com/developers/publications/
+
+
+		
