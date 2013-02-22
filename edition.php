@@ -96,16 +96,16 @@
 		<div id='bannerContainer'>
 			<img src='".$publicationUrl."banner.png'/>
 		</div>";
-	$title="";
+    $title="";
     $etag="";
     $textContainer="";
-	$headerContainer="";
+    $headerContainer="";
     $imgContainer="";
 	if(!empty($_GET)) {
     	$blogName=htmlspecialchars($_GET["blog"]);
     }
     $jsonData = file_get_contents("http://api.tumblr.com/v2/blog/".$blogName.".tumblr.com/posts?api_key=".$apiKey);
-	if(jsonData){
+    if(jsonData){
 	
     	$decoded=json_decode($jsonData);
     
